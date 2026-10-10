@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ortak Futbolcu — Karaman Games Studio. Gizlilik politikası.">
+  <title>Ortak Futbolcu — Gizlilik politikası</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+  <header><div class="container">
+    <a class="brand" href="index.html">Ortak Futbolcu</a>
+    <div class="muted">Karaman Games Studio</div>
+    <nav aria-label="Ana gezinme">
+      <a href="index.html">Destek</a>
+      <a href="delete-account.html">Hesap silme</a>
+      <a href="privacy.html" aria-current="page">Gizlilik politikası</a>
+    </nav>
+  </div></header>
+  <main id="main" tabindex="-1" class="container">
+    <h1>Gizlilik politikası</h1>
+    <p class="muted">Son güncelleme: 11 Ekim 2026</p>
+    <p>Bu politika, <strong>Karaman Games Studio</strong> tarafından geliştirilen <strong>Ortak Futbolcu</strong> mobil oyununda hangi verilerin işlendiğini ve tercihlerinizi açıklar. Uygulama misafir olarak oynanabilir; oyuncu profilini korumak için isteğe bağlı Google bağlantısı kullanılabilir.</p>
+    <section aria-labelledby="data">
+      <h2 id="data">İşlediğimiz veriler</h2>
+      <ul>
+        <li>Supabase tarafından oluşturulan kullanıcı kimliği ve oturum bilgileri; seçtiğiniz kullanıcı adı ve hazır profil simgesi.</li>
+        <li>Tamamlanan çevrimiçi maç sonuçları, lig puanı, puan değişimi, galibiyet/mağlubiyet ve seri istatistikleri.</li>
+        <li>Google bağlantısı seçilirse Google hesap kimliği, e-posta adresi ve Google'ın Supabase Auth'a ilettiği temel profil bilgileri. Google parolası uygulamaya iletilmez.</li>
+        <li>Oda kodu, oyuncu koltuğu, oda/maç/tur durumu, zaman damgaları, seçilen takımlar, skor, yanlış deneme sayısı, hazır olma durumu ve kabul edilmiş doğru futbolcu adı.</li>
+        <li>Katalog hatası bildirirseniz rapor metni, ilgili takım/futbolcu bilgisi, rapor durumu ve anonim raporlayan kimliği.</li>
+        <li>Güvenlik ve işletim için altyapı sağlayıcısının tutabileceği IP adresi, istek zamanı, cihaz/tarayıcı türü ve hata kayıtları.</li>
+        <li>E-posta ile destek/silme talebi gönderirseniz gönderen adresiniz ve yazışma içeriğiniz; talebi yanıtlamak, sahipliği doğrulamak ve işlemi yürütmek için kullanılır. Gereksiz kişisel bilgi veya sır göndermeyin.</li>
+      </ul>
+      <p>Yanlış yazılan cevap metinleri veritabanında saklanmaz; yalnızca yanlış deneme sayısı güncellenir. Uygulama konum, rehber, fotoğraf, mikrofon veya reklam kimliği istemez. İlk sürümde reklam, pazarlama profillemesi ve üçüncü taraf analitik SDK'sı yoktur.</p>
+    </section>
+    <section aria-labelledby="purpose">
+      <h2 id="purpose">Verileri neden kullanıyoruz?</h2>
+      <p>İki oyuncuyu aynı odaya bağlamak, gizli seçimleri korumak, cevapları sunucuda doğrulamak, skor ve lig sıralamasını hesaplamak, kötüye kullanımı önlemek ve teknik sorunları gidermek için kullanırız.</p>
+      <p>İlk beş puanlı maçını tamamlayan oyuncunun kullanıcı adı, hazır profil simgesi, lig puanı ve puanlı maç özeti diğer oyunculara liderlik tablosunda gösterilir. E-posta adresi ve Google hesap kimliği gösterilmez. Veriler satılmaz ve davranışsal reklam amacıyla paylaşılmaz.</p>
+    </section>
+    <section aria-labelledby="providers">
+      <h2 id="providers">Hizmet sağlayıcılar ve veri kaynakları</h2>
+      <ul>
+        <li><strong>Supabase:</strong> anonim/Google kimlik doğrulama, PostgreSQL veritabanı ve gerçek zamanlı bağlantı sağlar. Veriler proje yöneticisinin seçtiği Supabase bölgesinde işlenir.</li>
+        <li><strong>Google:</strong> açıkça seçtiğinizde Google girişi ve mevcut misafir profilini aynı oyuncu kimliğine bağlama işlemini sağlar. Destek e-postaları Google'ın Gmail hizmeti üzerinden iletilir.</li>
+        <li><strong>Wikidata/Wikimedia:</strong> kulüp, A millî takım ve futbolcu geçmişi için kamuya açık veri sağlar. Oyun sırasında kişisel oyuncu oturumları Wikimedia'ya gönderilmez.</li>
+        <li><strong>Apple, Google ve Expo/EAS:</strong> mağaza dağıtımı veya derleme hizmeti kullanıldığında kendi politikaları kapsamında teknik veriler işleyebilir.</li>
+      </ul>
+      <p>Bu statik sayfalar hesap girişi, analiz betiği veya takip çerezi kullanmaz. Barındırma sağlayıcısı erişim sırasında kendi politikası kapsamında IP adresi ve teknik istek bilgileri işleyebilir.</p>
+    </section>
+    <section aria-labelledby="security">
+      <h2 id="security">Paylaşım ve güvenlik</h2>
+      <p>Oda verilerine yalnızca odanın iki üyesi erişebilir; liderlik tablosundaki sınırlı profil/puan özeti bunun açık istisnasıdır. Gizli takım seçimleri doğrudan istemci tablolarından okunamaz; sunucu fonksiyonları ve satır düzeyinde güvenlik kuralları kullanılır. İnternet üzerinden iletim TLS ile korunur. Hiçbir sistem mutlak güvenlik garantisi vermez; erişim anahtarları uygulamadan ayrı tutulur ve en az yetki ilkesi uygulanır.</p>
+    </section>
+    <section id="retention" aria-labelledby="retention-heading">
+      <h2 id="retention-heading">Saklama ve silme</h2>
+      <dl>
+        <dt>Hesap, profil, maç özeti ve lig puanı</dt><dd>Hesap etkin olduğu ve oyun kayıtlarıyla ilişki gerektiği sürece saklanır; hesaba bağlı kayıtlar hesap silme süreciyle kaldırılır. Sınırlı maç özeti, oda temizlense de hesap silinene kadar kalabilir.</dd>
+        <dt>Google kimlik bağlantısı</dt><dd>Bağlantı kaldırılana veya oyuncu hesabı silinene kadar saklanır. Google parolası saklanmaz; Google hesabının kendisi silinmez.</dd>
+        <dt>Odalar, maçlar ve turlar</dt><dd>Bekleyen/hazır odalar son hareketten 1 saat; devam eden odalar son hareketten 6 saat; kapatılmış oda, maç ve turlar kapanıştan 24 saat sonra temizlik kapsamındadır.</dd>
+        <dt>Cevaplar ve istek sınırı olayları</dt><dd>Yanlış cevap metni saklanmaz; kabul edilen doğru cevap ilgili tur silinene kadar kalır. İstek sınırı olayları 24 saat sonra silinir.</dd>
+        <dt>Yanlış-veri raporları</dt><dd>Çözülen/reddedilen raporlar bu durumdan 90 gün sonra silinir; açık/incelenen raporlar inceleme bitene kadar kalır. Hesap silinirse raporlayan kimliği kaldırılır ve rapor anonim kalabilir.</dd>
+        <dt>Günlükler, yedekler ve zorunlu kayıtlar</dt><dd>Günlükler sağlayıcıların sınırlı saklama ayarlarına tabidir. Yedekler olağan döngü içinde erişilemez hale gelir; geri yüklemede silme listesi yeniden uygulanır. Yasal zorunlulukla tutulan veri varsa yalnızca zorunlu amaç için ve kısıtlı erişimle saklanır. Mevcut belgeler tüm günlük/yedekler için tek bir kesin süre tanımlamaz.</dd>
+        <dt>Futbolcu ve takım kataloğu</dt><dd>Kullanıcı hesabına bağlı değildir; kaynak düzeltildikçe güncellenir. Hesap silme işlemi kataloğu silmez.</dd>
+        <dt>Destek e-postaları</dt><dd>Uygulama içi hesap silme işlemi e-posta kutusundaki yazışmaları otomatik silmez. Yazışmalar için ayrıca talep edebilirsiniz; zorunlu doğrulama/işlem kayıtları ve yasal yükümlülükler değerlendirilebilir. Mevcut belgelerde destek e-postası için sabit saklama süresi tanımlanmamıştır.</dd>
+      </dl>
+      <p>Süre dolması anında fiziksel silme demek değildir; zamanlanmış bakımın sonraki çalışması gerekebilir. Üretimde bakımın etkinliği ayrıca doğrulanmalıdır.</p>
+      <p>Misafir veya Google bağlantılı hesabınızı <strong>Bilgi ve Destek &gt; Destek &gt; Oyun verilerimi sil</strong> yolundan kaldırabilirsiniz. Etkin odadan güvenli çıkış yapılır, onaylanan silme geri alınamaz ve yerel oturum kapanır. Yeniden çevrimiçi oyun yeni bir misafir kaydı oluşturur. Uygulamayı kaldırmak tek başına sunucu kayıtlarını silmez.</p>
+      <p>Uygulamaya erişemiyorsanız <a href="delete-account.html">e-posta ile hesap silme talebi</a> başlatabilirsiniz. Talepler sahiplik doğrulaması ve işlem gerektirir; anında veya otomatik silme değildir.</p>
+    </section>
+    <section aria-labelledby="children">
+      <h2 id="children">Çocukların gizliliği</h2>
+      <p>Uygulama bilerek çocuklardan ad, iletişim bilgisi veya kesin konum toplamaz. Bulunduğunuz ülkede dijital hizmet kullanım yaşı için veli izni gerekiyorsa yalnızca veli/yasal temsilci izniyle kullanılmalıdır. Bir çocuğa ait iletişim verisinin yanlışlıkla gönderildiğini düşünüyorsanız destek adresine bildirin.</p>
+    </section>
+    <section aria-labelledby="rights">
+      <h2 id="rights">Haklarınız ve iletişim</h2>
+      <p>Geçerli mevzuata göre veriye erişme, düzeltme, silme, işlemeyi kısıtlama veya itiraz etme hakkınız olabilir. Gizlilik soruları ve talepler için Karaman Games Studio'ya <a href="mailto:karamangamesstudio@gmail.com">karamangamesstudio@gmail.com</a> adresinden ulaşın.</p>
+      <p>Politika önemli ölçüde değişirse yeni tarih ve metin mağaza sayfasında veya resmi destek sayfasında yayımlanır.</p>
+    </section>
+  </main>
+  <footer><div class="container">Ortak Futbolcu · Karaman Games Studio<br><a href="mailto:karamangamesstudio@gmail.com">karamangamesstudio@gmail.com</a></div></footer>
+</body>
+</html>

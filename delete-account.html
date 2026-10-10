@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ortak Futbolcu — Karaman Games Studio. Hesap ve oyun verilerini silme.">
+  <title>Ortak Futbolcu — Hesap ve oyun verilerini silme</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+  <header><div class="container">
+    <a class="brand" href="index.html">Ortak Futbolcu</a>
+    <div class="muted">Karaman Games Studio</div>
+    <nav aria-label="Ana gezinme">
+      <a href="index.html">Destek</a>
+      <a href="delete-account.html" aria-current="page">Hesap silme</a>
+      <a href="privacy.html">Gizlilik politikası</a>
+    </nav>
+  </div></header>
+  <main id="main" tabindex="-1" class="container">
+    <h1>Hesap ve oyun verilerini silme</h1>
+    <p>Ortak Futbolcu hesabınızın ve ilişkili oyun verilerinizin silinmesini Karaman Games Studio'dan talep edebilirsiniz. Bu yöntem hem misafir hem Google bağlantılı oyuncu hesapları içindir.</p>
+    <section class="card" aria-labelledby="request">
+      <h2 id="request">Uygulama dışından silme talebi</h2>
+      <p><a href="mailto:karamangamesstudio@gmail.com">karamangamesstudio@gmail.com</a> adresine “Ortak Futbolcu - Hesap silme talebi” konulu e-posta gönderin.</p>
+      <p><a class="button" href="mailto:karamangamesstudio@gmail.com?subject=Ortak%20Futbolcu%20-%20Hesap%20silme%20talebi">Hesap silme talebi için e-posta yaz</a></p>
+      <p>Düğme yalnızca e-posta taslağını açar; mesajı kendiniz göndermelisiniz. E-posta uygulamanız yoksa adresi ve konuyu kopyalayıp kullandığınız e-posta hizmetinden yazın.</p>
+      <ul>
+        <li>Hesabınızın misafir mi Google bağlantılı mı olduğunu belirtin.</li>
+        <li>Biliyorsanız oyun içindeki kullanıcı adınızı ve uygulamadaki mevcut oturumunuza erişip erişemediğinizi yazın. Kullanıcı adı tek başına sahiplik kanıtı değildir.</li>
+        <li>Google bağlantılı hesapta mümkünse bağlantılı e-posta adresinizden yazın. E-posta göndermek tek başına otomatik doğrulama anlamına gelmez.</li>
+      </ul>
+      <p class="notice"><strong>E-posta talebi anında silme değildir.</strong> Talep incelenir, hesabın size ait olduğu güvenli şekilde doğrulanır ve ardından işlenir. Doğrulama için ek yönlendirme gerekebilir. Şifre, Google parolası, oturum belirteci, API anahtarı veya başka bir sır istemeyiz; bunları göndermeyin.</p>
+      <p>Misafir hesapların e-posta bağlantısı olmayabilir. Özgün cihazdaki oturuma erişim yoksa hesabı güvenle doğrulamak mümkün olmayabilir. Destek ekibi durumunuzu değerlendirir; doğrulanamayan bir hesabın silineceğini garanti edemeyiz.</p>
+    </section>
+    <section aria-labelledby="app-path">
+      <h2 id="app-path">Uygulama içinden silme</h2>
+      <ol>
+        <li><strong>Bilgi ve Destek &gt; Destek &gt; Oyun verilerimi sil</strong> yolunu açın.</li>
+        <li>Geri alınamaz silme uyarısını okuyup onaylayın.</li>
+        <li>Etkin oda varsa sunucu güvenli çıkış/hükmen sonuç akışını tamamlar ve oyuncu hesabını siler.</li>
+        <li>Başarılı işlemden sonra yerel oturum kapanır. Yeniden çevrimiçi oynamak yeni bir misafir kullanıcı oluşturur.</li>
+      </ol>
+      <p>Bağlantı hatasında işlemi yeniden deneyin. <strong>Google hesabınızın kendisi silinmez.</strong> Uygulamayı kaldırmak tek başına sunucu kayıtları için silme talebi oluşturmaz.</p>
+    </section>
+    <section aria-labelledby="deleted">
+      <h2 id="deleted">Silme kapsamı</h2>
+      <ul>
+        <li>Oyuncu hesabı ve hesabın kimlik/oturum bağlantısı.</li>
+        <li>Kullanıcı adı ve hazır profil simgesi gibi profil verileri.</li>
+        <li>Hesaba bağlı maç özeti, lig puanı, galibiyet/mağlubiyet ve seri istatistikleri.</li>
+        <li>Oyuncuya bağlı oda/maç üyelikleri ve varsa uygulamadaki Google kimlik bağlantısı.</li>
+      </ul>
+      <p>İşlem geri alınamaz. Başka oyuncuların hesapları veya kullanıcı hesabına bağlı olmayan futbolcu/takım kataloğu silinmez.</p>
+    </section>
+    <section aria-labelledby="retained">
+      <h2 id="retained">Kalabilen kayıtlar ve saklama sınırları</h2>
+      <ul>
+        <li>Yanlış-veri raporları raporlayan kimliğinden ayrılarak anonim kalabilir. Açık/incelenen raporlar inceleme bitene kadar; çözülen/reddedilen raporlar bu durumdan 90 gün sonra temizlik kapsamındadır.</li>
+        <li>Oda, maç ve tur kayıtlarının ayrı yaşam döngüsü vardır: bekleyen/hazır odalar son hareketten 1 saat, devam eden odalar son hareketten 6 saat, kapatılmış oda ve turlar kapanıştan 24 saat sonra temizlik kapsamına alınır.</li>
+        <li>İstek sınırı olayları 24 saat sonra silinir. Güvenlik/altyapı günlükleri sağlayıcıların sınırlı saklama ayarlarına tabidir; tüm günlükler için tek bir kesin süre belirtilmemiştir.</li>
+        <li>Yedeklerdeki kayıtlar olağan yedek döngüsünde erişilemez hale gelir; geri yüklemede silme listesi yeniden uygulanır. Yasal zorunlulukla tutulan veri varsa erişimi kısıtlı ve yalnızca zorunlu amaç için saklanır.</li>
+        <li>Uygulama içi silme destek e-postalarını otomatik silmez. Yazışmalar için ayrıca talep edebilirsiniz; zorunlu doğrulama/işlem kayıtları ve yasal yükümlülükler değerlendirilebilir. E-postalar için sabit saklama süresi mevcut belgelerde tanımlanmamıştır.</li>
+      </ul>
+      <p>Süre dolması anında fiziksel silme demek değildir; zamanlanmış bakımın sonraki çalışması gerekebilir. Tüm yedeklerin anında silindiği veya e-posta taleplerinin belirli bir sürede otomatik tamamlandığı garantisi verilmez.</p>
+      <p>Ayrıntılar için <a href="privacy.html#retention">gizlilik ve veri saklama bilgilerini</a> okuyun.</p>
+    </section>
+  </main>
+  <footer><div class="container">Ortak Futbolcu · Karaman Games Studio<br><a href="mailto:karamangamesstudio@gmail.com">karamangamesstudio@gmail.com</a></div></footer>
+</body>
+</html>
